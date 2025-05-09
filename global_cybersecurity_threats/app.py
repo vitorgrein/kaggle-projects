@@ -7,7 +7,7 @@ st.title("🔐 Painel de Incidentes de Cibersegurança (últimos anos)")
 
 @st.cache_data
 def carregar_dados():
-    df = pd.read_csv(r"data/dados.csv")  # Substitua pelo nome correto do arquivo
+    df = pd.read_csv(r"data/Global_Cybersecurity_Threats_2015-2024.csv")  # Substitua pelo nome correto do arquivo
 
     return df
 
